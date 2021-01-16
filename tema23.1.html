@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            position: relative;
+            animation: box 4s infinite;
+            animation-name: box;
+
+            animation-duration: 5s;
+        }
+
+        @keyframes box {
+
+            0% {
+                background-color: aqua;
+                left: 500px;
+                top: 0px;
+
+            }
+
+            25% {
+                background-color: yellowgreen;
+                left: 700px;
+                top: 200px;
+            }
+
+            50% {
+                background-color: purple;
+                left: 500px;
+                top: 400px;
+
+
+            }
+
+            75% {
+                background-color: green;
+                left: 250px;
+                top: 200px;
+
+            }
+
+            100%{
+                background-color: green;
+                left: 500px;
+                top: 0px;
+
+
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="box">
+</div>
+</body>
+
+</html>
